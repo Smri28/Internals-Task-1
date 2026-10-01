@@ -23,11 +23,11 @@ If there is a dispute, the arbitrator can decide what percentage of the money go
 
 ## Transaction Flow
 Normal flow:
-Create escrow → Deposit → Release → Complete
+Create escrow -> Deposit -> Release -> Complete
 
 Dispute flow:
-Create escrow → Deposit → Raise dispute →
-Arbitrator resolves percentage → Complete
+Create escrow -> Deposit -> Raise dispute ->
+Arbitrator resolves percentage -> Complete
 
 ## Security
 The escrow contract includes a few basic security checks to make sure the funds cannot be misused.
